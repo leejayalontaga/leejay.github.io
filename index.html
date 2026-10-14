@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio website for a software developer and designer."
+    />
+    <title>Leejay L. Alontaga | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#home" class="brand" aria-label="Home">LA</a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Menu</span>
+        </button>
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Hello, I’m</p>
+            <h1>Leejay L. Alontaga</h1>
+            <p class="subtitle">Full-Stack Web Developer & Cybersecurity Enthusiast</p>
+            <p class="lead">
+              I build secure, data-driven web experiences with a strong focus on
+              full-stack development, AI automation, and practical user-centered design.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View projects</a>
+              <a href="#contact" class="btn btn-secondary">Hire me</a>
+            </div>
+
+            <ul class="mini-stats" aria-label="Quick stats">
+              <li><strong>3+</strong><span>Years experience</span></li>
+              <li><strong>2</strong><span>Projects launched</span></li>
+              <li><strong>1</strong><span>Clients served</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Profile overview">
+            <div class="profile-visual">
+              <div class="profile-badge">Available for work</div>
+            </div>
+            <div class="profile-details">
+              <h2>Based in Iligan City</h2>
+              <p>Building secure digital systems that blend technical depth, business thinking, and thoughtful UX.</p>
+              <div class="social-links">
+                <a href="mailto:leejayalontaga@gmail.com">Email</a>
+                <a href="tel:+639394590872">Phone</a>
+                <a href="https://www.linkedin.com/in/leejay-alontaga/" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container split-layout">
+          <div>
+            <p class="section-tag">About me</p>
+            <h2>I build secure, scalable systems with clear user experiences.</h2>
+          </div>
+          <div>
+            <p>
+              I’m a BSIS graduate specializing in full-stack web development, cybersecurity,
+              and AI-driven automation. My work combines clean coding practices with
+              practical UI/UX thinking to create systems that are functional, secure,
+              and easy to use.
+            </p>
+            <p>
+              From automating incident workflows and malware triage to developing
+              real-world tools for inventory and library systems, I enjoy turning
+              complex technical needs into reliable digital solutions that help people work smarter.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="container">
+          <p class="section-tag">Experience</p>
+          <h2>Selected highlights</h2>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="timeline-year">Mar 2026 — Jun 2026</span>
+              <div>
+                <h3>Cybersecurity and Automation Developer (Internship)</h3>
+                <p>Aboitiz Foods</p>
+                <ul>
+                  <li>Developed AI-powered monitoring agents to track security telemetry and identify threat patterns.</li>
+                  <li>Automated malware triage using VirusTotal and hybrid analysis APIs to speed up threat detection.</li>
+                  <li>Mapped incidents to MITRE ATT&CK frameworks and generated intelligence summaries with Google Gemini.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-year">2024 — 2025</span>
+              <div>
+                <h3>System Developer &amp; Lead Programmer</h3>
+                <p>STI College Iligan (Capstone)</p>
+                <ul>
+                  <li>Architected a secure library automation system using Python (Flask) and SQLite.</li>
+                  <li>Built a QR/barcode scanner interface and real-time inventory tracking with automated logic.</li>
+                  <li>Facilitated UAT sessions to improve UI/UX and ensure 100% data migration accuracy.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-year">2016 — 2024</span>
+              <div>
+                <h3>Technical Freelancer</h3>
+                <p>UI/UX &amp; Digital Media</p>
+                <ul>
+                  <li>Designed high-fidelity UI/UX prototypes in Figma for user-centric digital systems.</li>
+                  <li>Created digital art and video content with Adobe Photoshop and Premiere Pro.</li>
+                  <li>Delivered practical creative and technical solutions for clients across multiple needs.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-tag">Projects</p>
+              <h2>Projects</h2>
+            </div>
+            <a href="mailto:leejayalontaga@gmail.com" class="text-link">See all work</a>
+          </div>
+
+          <div class="projects-grid">
+            <a href="#projects" class="project-card-link" aria-label="Aboitiz SOC Portal with Agentic AI Enrichment project overview">
+              <article class="project-card">
+                <div class="project-swatch swatch-one"></div>
+                <div class="project-body">
+                  <span class="project-label">Security Operations</span>
+                  <h3>Aboitiz SOC Portal with Agentic AI Enrichment</h3>
+                  <p>
+                    A monitoring and incident-response platform that combines security telemetry,
+                    malware triage automation, and AI-generated threat intelligence for faster action.
+                  </p>
+                  <ul>
+                    <li>AI agent workflows</li>
+                    <li>Threat intelligence</li>
+                    <li>MITRE ATT&amp;CK mapping</li>
+                  </ul>
+                </div>
+              </article>
+            </a>
+
+            <a href="#projects" class="project-card-link" aria-label="Resource Entry and Archival Database System for STI College Iligan project overview">
+              <article class="project-card">
+                <div class="project-swatch swatch-two"></div>
+                <div class="project-body">
+                  <span class="project-label">School system</span>
+                  <h3>Resource Entry and Archival Database System for STI College Iligan (READS)</h3>
+                  <p>
+                    A secure library and resource management system designed to replace paper-based
+                    records with digital workflows for inventory, search, and archival accuracy.
+                  </p>
+                  <ul>
+                    <li>Full-stack development</li>
+                    <li>Barcode/QR tracking</li>
+                    <li>UAT-driven UX refinement</li>
+                  </ul>
+                </div>
+              </article>
+            </a>
+
+            <a href="#projects" class="project-card-link" aria-label="Future project preview placeholder">
+              <article class="project-card">
+                <div class="project-swatch swatch-three"></div>
+                <div class="project-body">
+                  <span class="project-label">Coming soon</span>
+                  <h3>More projects coming soon</h3>
+                  <p>
+                    I’m continuously building and refining systems that blend secure architecture,
+                    automation, and user-friendly digital experiences.
+                  </p>
+                  <ul>
+                    <li>Automation</li>
+                    <li>Security</li>
+                    <li>UX design</li>
+                  </ul>
+                </div>
+              </article>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <p class="section-tag">Skills</p>
+          <h2>Tools I use</h2>
+
+          <div class="skills-wrap">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>SQL</span>
+            <span>Web Design</span>
+            <span>Figma</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Cybersecurity</span>
+            <span>AI Automation</span>
+            <span>App Script</span>
+            <span>Photoshop</span>
+            <span>Claude AI</span>
+            <span>Gemini</span>
+            <span>ChatGPT</span>
+            <span>GitHub Copilot</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-box">
+          <div>
+            <p class="section-tag">Let’s work together</p>
+            <h2>Have a project in mind?</h2>
+          </div>
+          <a href="mailto:leejayalontaga@gmail.com" class="btn btn-primary">leejayalontaga@gmail.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Leejay L. Alontaga</p>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
